@@ -11,11 +11,8 @@ A **simple, practical, and professional Git README** that you can use for learni
 
 ✅ Used in almost **every IT, DevOps, and software company**
 
----
-mermaid
-
- 
- graph LR
+```mermaid
+graph LR
     A[VS Code / Project Files] --> B[git init]
     B --> C[Working Directory]
 
@@ -36,8 +33,10 @@ mermaid
     E -->|git reset| D
     D -->|git reset| C
     C -->|git clean| H[Clean Working Directory]
+```
 
 
+---
 
 ## 🧠 Why Git is Important?
 
