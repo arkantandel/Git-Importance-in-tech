@@ -1,4 +1,4 @@
-# Git-Importance-in-tech
+## Git-Importance-in-tech
 # 🚀 Git Complete Guide (Beginner to IT/DevOps Ready)
 
 A **simple, practical, and professional Git README** that you can use for learning, interviews, and real IT / DevOps projects.
@@ -12,6 +12,32 @@ A **simple, practical, and professional Git README** that you can use for learni
 ✅ Used in almost **every IT, DevOps, and software company**
 
 ---
+mermaid
+
+ ```
+ graph LR
+    A[VS Code / Project Files] --> B[git init]
+    B --> C[Working Directory]
+
+    C -->|git status| C
+    C -->|git add| D[Staging Area]
+    D -->|git commit| E[Local Repository]
+
+    E -->|git log| E
+    E -->|git branch| F[Feature Branch]
+    F -->|git checkout / switch| F
+    F -->|git merge| E
+
+    E -->|git remote add origin| G[GitHub Remote Repo]
+    E -->|git push| G
+    G -->|git pull| E
+    G -->|git fetch| E
+
+    E -->|git reset| D
+    D -->|git reset| C
+    C -->|git clean| H[Clean Working Directory]
+
+```
 
 ## 🧠 Why Git is Important?
 
