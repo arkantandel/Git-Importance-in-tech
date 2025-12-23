@@ -14,7 +14,7 @@ A **simple, practical, and professional Git README** that you can use for learni
 ---
 mermaid
 
- ```
+ 
  graph LR
     A[VS Code / Project Files] --> B[git init]
     B --> C[Working Directory]
@@ -37,7 +37,7 @@ mermaid
     D -->|git reset| C
     C -->|git clean| H[Clean Working Directory]
 
-```
+
 
 ## 🧠 Why Git is Important?
 
